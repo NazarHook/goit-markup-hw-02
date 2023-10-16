@@ -39,12 +39,6 @@ letter-spacing: 0.54px;
 text-transform: uppercase;
 color: var(--CLOUD, #F4F4FD);
 }
-
-.main-nav{
-display: inline-flex;
-align-items: flex-start;
-gap: 40px;
-}
 .nav-names{
 font-family: "Roboto", sans-serif;
 font-size: 16px;
@@ -75,9 +69,6 @@ color: var(--SLATE, #434455);
     color: #404bbf; 
 }
 .hero-section{
-width: 1440px;
-height: 600px;
-flex-shrink: 0;
 background: var(--NAVY-BLUE, #2E2F42);
 }
 .hero-section-title{
@@ -96,10 +87,6 @@ background: var(--NAVY-BLUE, #2E2F42);
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
-    display: inline-flex;
-padding: 16px 32px;
-align-items: flex-start;
-gap: 10px;
 border-radius: 4px;
 background: var(--IRIS, #4D5AE5);
 box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
@@ -129,9 +116,6 @@ letter-spacing: 0.32px;
 color: var(--SLATE, #434455);
 }
 .team{
-    width: 1440px;
-height: 732px;
-flex-shrink: 0;
 background: var(--CLOUD, #F4F4FD);
 }
 .team-section-title{
@@ -146,13 +130,7 @@ text-transform: capitalize;
 color: var(--NAVY-BLUE, #2E2F42);
 }
 .team-card{
-    display: inline-flex;
-padding-bottom: 0px;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-gap: 32px;
-    border-radius: 0px 0px 4px 4px;
+border-radius: 0px 0px 4px 4px;
 background: var(--WHITE, #FFF);
 box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
@@ -181,14 +159,6 @@ color: var(--NAVY-BLUE, #2E2F42);
 }
 .portfolio{
     background: #FFF;
-
-}
-
-
-.portfolio-types-photo{
-    width: 360px;
-height: 300px;
-flex-shrink: 0;
 }
 .portfolio-types-title{
 font-family: Roboto;
@@ -209,9 +179,6 @@ letter-spacing: 0.32px;
 color: var(--SLATE, #434455);
 }
 footer{
-width: 1440px;
-height: 312px;
-flex-shrink: 0;
 background: var(--NAVY-BLUE, #2E2F42);
 }
 .footer-description{
